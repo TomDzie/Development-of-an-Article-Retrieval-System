@@ -10,19 +10,19 @@ from llama_index.llms import OpenAI
 os.environ["OPENAI_API_KEY"] = 'API_KEY'
 load_dotenv()
 
-data_path = os.path.join("RAG system\\data", "medium.csv")
+data_path = os.path.join("", "medium.csv")
 data_df = pd.read_csv(data_path)
 
-population_query_engine = PandasQueryEngine(
+query_engine = PandasQueryEngine(
     df=data_df, verbose=True,
 )
-population_query_engine.update_prompts({"pandas_prompt": new_prompt})
+query_engine.update_prompts({"pandas_prompt": new_prompt})
 
 tools = [
     QueryEngineTool(
-        query_engine=population_query_engine,
+        query_engine=query_engine,
         metadata=ToolMetadata(
-            name="population_data",
+            name="medium_data",
             description="info from Medium articles",
         ),
     ),
