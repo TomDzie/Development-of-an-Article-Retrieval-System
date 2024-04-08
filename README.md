@@ -14,6 +14,20 @@
    ```
    python main.py
    ```
+2. Write a query
+   example:  
+   <img width="360" alt="image" src="https://github.com/TomDzie/Development-of-an-Article-Retrieval-System/assets/117634603/71a49107-2cf9-44c1-b459-4fc783fef7c1">  
+
+3. Output:
+   relative articles:  
+   <img width="782" alt="image" src="https://github.com/TomDzie/Development-of-an-Article-Retrieval-System/assets/117634603/0ea1d2ff-9d58-4320-8d79-f5c2ae6d45e1">
+
+   answer:
+   <img width="1131" alt="image" src="https://github.com/TomDzie/Development-of-an-Article-Retrieval-System/assets/117634603/bb90f8fa-8f98-4dc4-9f0f-c255f5788b67">
+
+
+
+
 
 ## Configuration  
 
